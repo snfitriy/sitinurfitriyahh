@@ -1,0 +1,356 @@
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Uts Pengembangan Web</title>
+<link rel="stylesheet" type="text/css" href="ya.css">
+<link rel="shortcut icon" type="image/x-icon" href="/Latihan3/images/favicon.ico">
+</head>
+ <body>
+    <nav>
+      <div class="layar-dalam">
+        <div class="logo">
+          <a href=""><img src="Images/logo1.png" class="putih" /></a>
+        </div>
+        <div class="menu">
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#Tours">Tours</a></li>
+            <li><a href="#Promosi & Tiket">Promosi & Tiket</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="layar-penuh">
+      <header id="home">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+          <source src="Images/hhha.mp4" type="video/mp4" />
+        </video>
+        <div class="intro">
+          <h3>EXPLORE THE COLOURFUL WORLD</h3>
+          <p>
+            A WONDERFUL GIFT
+          </p>
+          <p>
+            <a href="" class="tombol">GET STARTED</a>
+          </p>
+        </div>
+      </header>
+      <main>
+        <section id="aboutus">
+          <div class="layar-dalam">
+            <h3>About Us</h3>
+            <p class="ringkasan">
+              Selamat datang di Travelling! Kami adalah platform traveling yang hadir untuk menginspirasi perjalanan Anda. Dengan fokus pada eksplorasi, pengalaman autentik, dan destinasi terbaik, kami berkomitmen untuk membantu Anda merencanakan perjalanan impian dengan mudah dan menyenangkan.
+            </p>
+            <div class="konten-isi">
+              <p>
+                Dengan semangat eksplorasi, kami percaya bahwa setiap perjalanan memiliki cerita unik yang layak untuk diceritakan. Itulah mengapa kami menghadirkan panduan wisata, ulasan terpercaya, dan rekomendasi aktivitas untuk berbagai tipe traveler—dari pencinta pantai hingga penjelajah budaya.Bergabunglah dengan kami untuk menemukan tempat baru, menciptakan kenangan indah, dan menginspirasi perjalanan Anda berikutnya.
+                Travelling – Bersama, kita jelajahi dunia!
+              </p>
+            </div>
+          </div>
+        </section>
+        <body>
+  <div class="tour-section">
+    <div class="section-header">
+      <h2>All Tours</h2>
+      <a href="#" class="view-more">View More →</a>
+    </div>
+    <div class="slider-container">
+      <button class="slider-btn prev" onclick="slideLeft()">&#8249;</button>
+      <div class="slider">
+        <div class="tour-card">
+          <img src="Images/turk.jpg" alt="Turkey & Middle East">
+          <div class="card-content">
+            <h3>Turkey & Middle East</h3>
+            <p>25 Tours</p>
+            <p>Starting From <strong>IDR 16,088,000</strong> Per Person</p>
+          </div>
+        </div>
+        <div class="tour-card">
+          <img src="Images/asia.jpg" alt="Asia">
+          <div class="card-content">
+            <h3>Asia</h3>
+            <p>136 Tours</p>
+            <p>Starting From <strong>IDR 14,888,000</strong> Per Person</p>
+          </div>
+        </div>
+        <div class="tour-card">
+          <img src="Images/china.jpg" alt="China">
+          <div class="card-content">
+            <h3>China</h3>
+            <p>54 Tours</p>
+            <p>Starting From <strong>IDR 17,888,000</strong> Per Person</p>
+          </div>
+        </div>
+        <div class="tour-card">
+          <img src="Images/dubai.jpg" alt="Dubai">
+          <div class="card-content">
+            <h3>Dubai</h3>
+            <p>44 Tours</p>
+            <p>Starting From <strong>IDR 28,588,000</strong> Per Person</p>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn next" onclick="slideRight()">&#8250;</button>
+    </div>
+  </div>
+  <script src="java.js"></script>
+  <div class="promo-section">
+    <div class="section-header">
+      <h2>Promosi</h2>
+      <a href="#" class="view-more">View More →</a>
+    </div>
+    <div class="slider-container">
+      <button class="slider-btn prev" onclick="slideLeft()">&#8249;</button>
+      <div class="slider">
+        <!-- Card 1 -->
+        <div class="promo-card">
+          <img src="Images/slide1.png" alt="Promo 1">
+          <div class="card-content">
+            <span class="badge">BARU</span>
+            <h3>Liburan Harga Asik Cukup Satu Klik</h3>
+            <p>Periode promo: <strong>Selamanya</strong></p>
+            <button class="promo-button">Lihat Promo</button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="promo-card">
+          <img src="Images/slide2.png" alt="Promo 2">
+          <div class="card-content">
+            <h3>Promo Paket Wisata Black Friday</h3>
+            <p>Periode promo: <strong>25 Nov - 1 Des 2024</strong></p>
+            <button class="promo-button">Lihat Promo</button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="promo-card">
+          <img src="Images/slide3.png" alt="Promo 3">
+          <div class="card-content">
+            <h3>Diskon s.d. Rp 3 juta - UOB</h3>
+            <p>Periode promo: <strong>25 Okt - 31 Des 2024</strong></p>
+            <button class="promo-button">Lihat Promo</button>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn next" onclick="slideRight()">&#8250;</button>
+    </div>
+  </div>
+  <section class="promo-section">
+        <h2>Destinasi Favorit Harga Promo ✈️</h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-banner">PULANG-PERGI</div>
+                <img src="Images/dubai.jpg" alt="Dubai">
+                <div class="card-info">
+                    <p class="price">Rp 1.710.775</p>
+                    <p class="route">Jakarta ↔ Dubai</p>
+                    <p class="date">16 - 18 Februari 2025</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-banner">PULANG-PERGI</div>
+                <img src="Images/singapore.jpg" alt="Singapore">
+                <div class="card-info">
+                    <p class="price">Rp 1.365.354</p>
+                    <p class="route">Jakarta ↔ Singapore</p>
+                    <p class="date">5 - 11 Juni 2025</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-banner">PULANG-PERGI</div>
+                <img src="Images/turk.jpg" alt="Turki">
+                <div class="card-info">
+                    <p class="price">Rp 1.901.426</p>
+                    <p class="route">Turki ↔ Jakarta</p>
+                    <p class="date">11 - 13 Maret 2025</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-banner">PULANG-PERGI</div>
+                <img src="Images/malay.jpg" alt="Malaysia">
+                <div class="card-info">
+                    <p class="price">Rp 1.546.600</p>
+                    <p class="route">Malaysia ↔ Jakarta</p>
+                    <p class="date">20 - 22 Maret 2025</p>
+                </div>
+            </div>
+        </div>
+    </section></body>
+    <div style="color: black; font-family: arial; font-size: 30px; margin-right: 90px; margin-left:480px";class="registration-container">
+       <div class="login-container">
+        <h2>Login Akun</h2>
+        <form class="login-form" action="login.php" method="POST">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan Email Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password Anda" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+        <div class="extra-options">
+            <a href="forgot-password.php" class="forgot-password-link">Lupa Password?</a>
+        </div>
+    </div>
+    </div></body>
+  <section class="activity-section">
+    <div class="section-header">
+       <h2>Service</h2>
+      <a href="#" class="view-more">View More →</a>
+    </div>
+        <div class="activity-card">
+            <img src="Images/pesan.jpg" alt="Backpacking Trips">
+            <h3>Pemesanan Tiket Pesawat</h3>
+            <p>Pilihan rute domestik dan internasional dengan harga kompetitif dan Fitur tiket promo untuk perjalanan hemat.</p>
+        </div>
+        <div class="activity-card">
+            <img src="Images/pack.jpg" alt="Family Hiking Trips">
+            <h3>Paket Liburan</h3>
+            <p>Liburan yang dirancang khusus sesuai kebutuhan, termasuk akomodasi, transportasi, dan destinasi populer</p>
+        </div>
+        <div class="activity-card">
+            <img src="Images/lyn.jpg" alt="Water Sports">
+            <h3>Layanan Customer Support 24/7</h3>
+            <p>Dukungan pelanggan untuk membantu Anda kapan saja, mulai dari pemesanan hingga keberangkatan.</p>
+        </div>
+        <div class="activity-card">
+            <img src="Images/keamanan.jpeg" alt="Winter Sports">
+            <h3>Keamanan dan Kemudahan Pembayaran</h3>
+            <p>Opsi pembayaran yang aman dan fleksibel, termasuk transfer bank, kartu kredit, atau e-wallet.</p>
+        </div>
+        <div class="activity-card">
+            <img src="Images/disk.jpg" alt="Winter Sports">
+            <h3>Program Loyalitas dan Diskon</h3>
+            <p>Poin reward untuk setiap transaksi dan penawaran diskon menarik untuk pelanggan setia.</p>
+        </div>
+    </section>
+        </div>
+    </section>
+  <script src="java.js"></script>
+  </section>
+        <section class="abuabu" id="Service">
+          <div class="layar-dalam Service">
+            <div>
+              <div class="benefit-container">
+            <div class="benefit">
+                <h3>Mengapa Pakai Travel Ini?</h3>
+                <hr>
+                <p>
+                    Kami menawarkan pengalaman perjalanan yang menyenangkan dan bebas stres, dengan layanan terbaik yang memenuhi semua kebutuhan Anda.
+                </p>
+                <ul>
+                    <li>✔ Pengalaman Terbaik: Dengan tim profesional dan terpercaya.</li>
+                    <li>✔ Reputasi: Mendapat ulasan terbaik dari pelanggan.</li>
+                    <li>✔ Pemandu Ahli: Didampingi oleh pemandu berpengalaman.</li>
+                </ul>
+            </div>
+            <div class="benefit">
+                <h3>Apa yang Kamu Dapat?</h3>
+                <hr>
+                <p>
+                    Layanan lengkap yang akan membuat perjalanan Anda nyaman dan menyenangkan, dari awal hingga akhir.
+                </p>
+                <ul>
+                    <li>✔ Private Tour: Perjalanan khusus sesuai kebutuhan Anda.</li>
+                    <li>✔ Transportasi: Kendaraan nyaman untuk semua destinasi.</li>
+                    <li>✔ Fasilitas Lengkap: Hotel berbintang dan paket makan.</li>
+                </ul>
+            </div>
+          </div>
+        </section>
+        </section>
+        <section class="abuabu" id="blog">
+          <div class="layar-dalam">
+            <h3>Lastest Blog</h3>
+            <div class="blog">
+              <div class="area">
+                <div
+                  class="gambar"
+                  style="background-image: url('Images/bali.png')"
+                ></div>
+                <div class="text">
+                  <article>
+                    <h4><a href="https://www.indonesia.travel/gb/en/travel-blog/cultural-experience-in-bali-uluwatu-kecak-dance.html">Cultural Experience in Bali: Uluwatu, Kecak Dance</a></h4>
+                    <p>
+                     Temple Uluwatu is the second most important temple on the island of Bali. This is a popular place of worship, where hundreds of ...
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="area">
+                <div
+                  class="gambar"
+                  style="background-image: url('Images/blog.png')"
+                ></div>
+                <div class="text">
+                  <article>
+                    <h4><a href="https://www.indonesia.travel/gb/en/travel-blog/6-lesser-visited-destination-s-to-visit-in-indonesia.html">6 Lesser-Visited</a></h4>
+                    <p>
+                      Have you ever thought to experience Indonesia outside of Bali’s digital nomad hub? 
+                      There’s so much more to see throughout the 17,000 islands that make up Indonesia!
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="contact">
+        <div class="layar-dalam">
+          <div>
+            <h5>KANTOR PUSAT</h5>
+            Travelling Star
+            Jl. Swadaya 1 No. 13 Jatimakmur
+            Pondok Gede, Bekasi 17413
+          </div>
+          <div>
+            <h5>CONTACT</h5>
+            <p>📞 021 1122 3333</p>
+            <p>📱 WhatsApp: 628118883818</p>
+            <p>📧 Email: travellingstar@gmail.com</p>
+            <p>☎ 021 2598 8888 (Ticketing Call Center)</p>
+          </div>
+          <div>
+            <h5>TENTANG KAMI</h5>
+            Travelling, Penyedia Jasa Tour Domestik Indonesia, Luar Negeri, Asia, Eropa & Timur Tengah. Menyediakan menyediakan Paket Tour Murah, Paket Wisata Murah, Liburan Keluarga dan Bulan Madu ke Turki, Dubai, Rusia, Malaysia, Singapore, Thailand, Vietnam, Kamboja, Korea, Jepang dan China.
+          </div>
+          <div>
+            <h5>TOUR FAVORIT</h5>
+            <p>Holiday Season</p>
+            <p>Paket Umroh</p>
+            <p>Tour Domestik</p>
+            <p>Tour Luar Negeri</p>
+            <p>Indonesia</p>
+            <p>Asia</p>
+            <p>Eropa</p>
+            <p>Timur Tengah</p>
+          </div>
+        </div>
+        <div class="layar-dalam">
+          <div class="copyright">&copy; 2021 Travelling Indonesia</div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
